@@ -1,0 +1,60 @@
+ <!DOCTYPE html>
+ <head>
+	<link rel="stylesheet" href="style.css">
+	<title>
+		Online Application
+	</title>
+</head>
+<body>
+	<div class="formdiv">
+		<h1>Application Form</h1>
+		<form>
+			<div class="element">
+				<div class="labeldiv"><label for="name">Full Name:</label></div>
+				<input type="text" id="name" name="name" placeholder="Enter your full Name" required>
+			</div>
+			
+			<div class="element">
+				<div class="labeldiv"><label for="email">Email id:</label></div>
+				<input type="email" id="email" name="email" placeholder="Enter your email id" required>
+			</div>
+			
+			<div class="element">
+				<div class="labeldiv"><label for="DOB">Date of birth:</label></div>
+				<input type="date" id="dob" name="dob" required>
+			</div>
+			
+			<div class="element">
+				<div class="labeldiv"><label for="gender">Gender:</label></div>
+				<select>
+					<option value="Male">Male</option>
+					<option value="Female">Female</option>
+					<option value="Trans">Transgender</option>
+				</select>
+			</div>
+			
+			<div class="element">
+				<div class="labeldiv"><label for="address">Address:</label></div>
+				<textarea id="address" name="address" rows="4" placeholder="Enter your address" required></textarea>
+			</div>
+			
+			<div class="element">
+				<div class="labeldiv"><label for="phone">Phone Number:<label></div>
+				<input type="text" id="phone" placeholder="Enter your phone number" maxlength=10 required>
+			</div>
+			
+			<div class="element">
+				<div class="labeldiv"><label for="resume">Upload Resume<label></div>
+				<input type="file" id="resume" name="resume" required>
+			</div>
+			
+			<div class="element">
+				<button type="submit">Submit</button>
+				<button type="reset">Reset</button>
+			</div>
+		</form>
+	</div>
+</body>
+
+
+

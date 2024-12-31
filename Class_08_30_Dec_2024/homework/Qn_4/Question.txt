@@ -1,0 +1,2 @@
+Write a function filterArray that takes an array and a callback function as arguments. 
+The function should return a new array containing elements that satisfy the condition in the callback.

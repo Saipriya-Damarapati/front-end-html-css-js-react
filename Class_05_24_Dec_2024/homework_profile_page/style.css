@@ -1,0 +1,211 @@
+.container {
+    display: grid;
+    grid-template-areas: "header" "profile" "footer";
+    padding: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+}
+
+.container > div.header {
+    display: grid;
+    grid-template-areas: "header-left header-middle header-right";
+    grid-template-columns: 10% 40% 50%;
+    background-color: cornflowerblue;
+}
+
+.header > div.header-left {
+    grid-area: header-left;
+}
+
+.header > div.header-middle {
+    grid-area: header-middle;
+    padding-left: 10%;
+    margin-left: 20px;
+}
+
+.header > div.header-right {
+    grid-area: header-right;
+}
+
+.header-right > header > nav > ul > li {
+    display: inline;
+    float: right;
+}
+
+.header-right > header > nav > ul > li > a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.header-right > header > nav > ul > li > a:hover {
+    color: white;
+    background-color: salmon;
+}
+
+.container > div.profile {
+    grid-area: profile;
+    background-color: darkgrey;
+    display: grid;
+    grid-template-areas: "about-me work-experience" 
+    "tech-skills work-experience" 
+    "volunteering-div accomplishments-div";
+    grid-template-columns: 35% 65%;
+}
+
+.profile > div.about-me {
+    grid-area: about-me;
+    padding: 10px 10px 10px 10px;
+    background-color: blanchedalmond;
+}
+
+.workplace-roles {
+    background-color: darkkhaki;
+    padding: 2px 2px 2px 2px;
+}
+
+.workplace-roles > div.roles {
+    display: grid;
+    grid-template-areas: "c-level role-timeline";
+    grid-template-columns: 10% 90%;
+    background-color: khaki;
+    margin: 5px 5px 5px 5px;
+}
+
+.roles > div.c-level {
+    grid-area: c-level;
+    background-color: darkorange;
+    text-align: center;
+    padding: 15px 2px 2px 2px;
+}
+
+.roles > div.role-timeline {
+    display: grid;
+    grid-area: role-timeline;
+    grid-template-areas: "role" "timeline";
+}
+
+.role-timeline > div.role {
+    grid-area: role;
+    padding: 2px 2px 2px 2px;
+}
+
+.role-timeline > div.timeline {
+    grid-area: timeline;
+    padding: 2px 2px 2px 2px;
+}
+
+.about-me > div.tech-skills-div {
+    margin-top: 20px;
+    background-color: darkkhaki;
+    padding: 2px 2px 2px 2px;
+}
+
+.about-me > div.tech-skills {
+    grid-area: tech-skills;
+}
+
+.tech-skills {
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.col1, .col2, .col3 {
+    background-color: khaki;
+    margin: 5px 5px 5px 5px;
+}
+
+.title {
+    background-color: darkorange;
+    text-align: center;
+    padding: 5% 5% 5% 5%;
+}
+
+.data {
+    font-weight: lighter;
+    text-align: center;
+    background-color: khaki;
+    padding: 5% 5% 5% 5%;
+    display: block;
+}
+
+.profile > div.work-experience {
+    grid-area: work-experience;
+    background-color: darkgray;
+    margin: 5px 5px 5px 5px;
+}
+
+.profile > div.accomplishments-div {
+    grid-area: accomplishments-div;
+    margin: 5px 5px 5px 5px;
+    background-color: darkkhaki;
+}
+
+.accomplishments {
+    display: grid;
+    grid-template-areas: "award-1 award-2 award-3";
+}
+
+.accomplishments > div.award-1 {
+    grid-area: award-1;
+}
+
+.accomplishments > div.award-2 {
+    grid-area: award-2;
+}
+
+.accomplishments > div.award-3 {
+    grid-area: award-3;
+}
+
+.award-1 > img, .award-2 > img, .award-3 > img {
+    height: 100px;
+    width: 125px;
+    margin-left: 30%;
+}
+
+.award-1 > p, .award-2 > p, .award-3 > p {
+    text-align: center;
+}
+
+.profile > div.volunteering-div {
+    grid-area: volunteering-div;
+    margin: 5px 5px 5px 5px;
+    background-color: darkkhaki;
+}
+
+.volunteering {
+    display: grid;
+    grid-template-areas: "volunteer-1 volunteer-2";
+}
+
+.volunteering > div.volunteer-1 {
+    grid-area: volunteer-1;
+}
+
+.volunteering > div.volunteer-2 {
+    grid-area: volunteer-2;
+}
+
+
+.volunteer-1 > img, .volunteer-2 > img {
+    height: 100px;
+    margin-left: 35%;
+}
+
+.volunteer-1 > p, .volunteer-2 > p {
+    text-align: center;
+}
+
+
+.container > div.footer {
+    grid-area: footer;
+    background-color: cornflowerblue;
+}
+

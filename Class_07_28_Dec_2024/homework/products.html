@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<head>
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="products.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Shopping Cart</h1>
+
+        <div class="items">
+            <div class="item">
+                <div class="product-image">
+                    <img src="toordal.jpg">
+                </div>
+                <div class="product-description">
+                    <div class="product-desc">
+                        <label>Tata Sampann Toor dal</label>
+                    </div>
+                    <div class="product-qty">
+                        <label>Rs. 185/kg </label>
+                        <button onclick="decrement('toordal')">-</button>
+                        <input type="text" id="toordalCount" value="0" disabled>
+                        <button onclick="increment('toordal')">+</button>
+                    </div>
+                </div>
+                <div class="product-price">
+                    <input type="text" id="toordalPrice" value="Rs. 0" disabled>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="product-image">
+                    <img src="uraddal.jpg">
+                </div>
+                <div class="product-description">
+                    <div class="product-desc">
+                        <label>Tata Sampann Urad dal</label>
+                    </div>
+                    <div class="product-qty">
+                        <label>Rs. 165/kg </label>
+                        <button onclick="decrement('uraddal')">-</button>
+                        <input type="text" id="uraddalCount" value="0" disabled>
+                        <button onclick="increment('uraddal')">+</button>
+                    </div>
+                </div>
+                <div class="product-price">
+                    <input type="text" id="uraddalPrice" value="Rs. 0" disabled>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="product-image">
+                    <img src="chanadal.jpg">
+                </div>
+                <div class="product-description">
+                    <div class="product-desc">
+                        <label>Tata Sampann Chana dal</label>
+                    </div>
+                    <div class="product-qty">
+                        <label>Rs. 145/kg </label>
+                        <button onclick="decrement('chanadal')">-</button>
+                        <input type="text" id="chanadalCount" value="0" disabled>
+                        <button onclick="increment('chanadal')">+</button>
+                    </div>
+                </div>
+                <div class="product-price">
+                    <input type="text" id="chanadalPrice" value="Rs. 0" disabled>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="product-image">
+                    <img src="masoordal.jpg">
+                </div>
+                <div class="product-description">
+                    <div class="product-desc">
+                        <label>Tata Sampann Masoor dal</label>
+                    </div>
+                    <div class="product-qty">
+                        <label>Rs. 195/kg </label>
+                        <button onclick="decrement('masoordal')">-</button>
+                        <input type="text" id="masoordalCount" value="0" disabled>
+                        <button onclick="increment('masoordal')">+</button>
+                    </div>
+                </div>
+                <div class="product-price">
+                    <input type="text" id="masoordalPrice" value="Rs. 0" disabled>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="product-image"></div>
+                <div class="product-description">
+                    <div class="product-desc"></div>
+                    <div class="product-qty">
+                        <label>Total quantity: </label>
+                        <input type="text" id="totalCount" value="0" disabled>
+                    </div>
+                </div>
+                <div class="product-price">
+                    <label>To Pay: </label>
+                    <input type="text" id="totalPrice" value="Rs. 0" disabled>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+        
+    </div>
+    <script src="products.js"></script>
+</body>

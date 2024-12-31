@@ -1,0 +1,1 @@
+Write a function that takes an object as an argument and logs all its keys and values.

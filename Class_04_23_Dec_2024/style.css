@@ -1,0 +1,44 @@
+input[type=text],[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+body {
+    align-items: center;
+    border: 1px solid black;
+}
+
+input[type=submit]:hover{
+    background-color: purple;
+}
+
+.page {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    padding: 20px;
+}
+
+.left {
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.right {
+    border-radius: 5px;
+    background-color: burlywood;
+    padding: 20px;
+    width: 20%;
+}

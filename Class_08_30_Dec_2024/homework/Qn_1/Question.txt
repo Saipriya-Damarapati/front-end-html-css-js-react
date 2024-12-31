@@ -1,0 +1,1 @@
+Write a function greet that takes a name as an argument and returns a greeting message, e.g., "Hello, [name]!".

@@ -1,0 +1,82 @@
+body {
+    width: 25%;
+    margin-left: 37%;
+    margin-top: 3%;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gainsboro;
+}
+
+.formdiv {
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 3px 3px crimson;
+    background-color: darksalmon;
+}
+
+h1 {
+    margin-left: 10%;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.element {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    padding: 5px 5px ;
+    /*border: 1px solid seagreen;*/
+    background-color: khaki;
+    border-radius: 10px;
+}
+
+.labeldiv {
+    /* border: 1px solid slateblue;*/
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],[type="email"],[type="date"] {
+    /* border: 1px solid cadetblue;*/
+    width: 95%;
+    padding: 12px 10px 10px 10px;
+    box-shadow: darkmagenta;
+    border-radius: 10px;
+}
+
+input::placeholder, textarea::placeholder {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-style: italic;
+}
+
+select {
+    width: 100%;
+    padding: 12px 10px 10px 10px;
+}
+
+textarea {
+    width: 95%;
+    padding: 12px 10px 10px 10px;
+}
+
+input[type="file"] {
+    width: 100%;
+    padding: 12px 10px 10px 10px;
+    font-size: medium;
+}
+
+button {
+    width: 40%;
+    padding: 12px 10px;
+    background-color: cornflowerblue;
+    font-size: large;
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+button:hover {
+    background-color: darkturquoise;
+}

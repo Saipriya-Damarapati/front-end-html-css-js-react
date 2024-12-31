@@ -1,0 +1,1 @@
+Given the object person, add a new property address, and update the age property.

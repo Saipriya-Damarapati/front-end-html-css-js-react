@@ -1,0 +1,17 @@
+DOM - Document Object Model
+
+3 types of keywords to declare a variable
+
+// to declare the variables
+
+1. var - Before 2016 ES6
+    * we can use the variable from anywhere in the program
+    * will support old browsers
+2. let
+    * block limitations
+3. const
+    * when we do not want to change the value of a variable
+    * we can use const for declaring objects and arrays
+
+// Functions
+1. block of code to perform some operations

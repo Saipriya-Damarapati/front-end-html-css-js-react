@@ -1,0 +1,65 @@
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+20/Nov/2024
+-------------------------------------------------------------------------------------------------
+div is used to group certain elements
+placeholder is used for user understanding display purpose
+id / class is used for selectors
+name, for is used for connection to backend
+
+input, br - close tag not required - void tags
+div, form, select, option, textarea - close tag is mandatory
+
+table
+tr - row
+th - table header
+td - table data
+
+Homework
+-----------
+create radio button for gender, religion 
+checkbox - Languages known
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+23/Nov/2024
+-------------------------------------------------------------------------------------------------
+Lists: ordered list / unordered list
+
+Dictionary tags
+----------------    
+    <dl> <!-- Description List -->
+        <dt> ATM <!-- Data Term -->
+            <dd> <!-- Data definition-->
+
+cellpadding - inside the cell to make space
+cellspacing - around the cell to make space
+colspan - to merge to columns - put this attribute in <th> tag
+rowspan - to merge to rows - put this along with td tag
+
+CSS Notes:
+-----------
+Three types of CSS
+1. Inline CSS - it will be written inside the HTML tag
+Example, <table border="1" cellpadding="10" cellspacing="5">
+2. Internal CSS - inside head tag, using style tag, to create styles for our elements <style></style>
+3. External CSS - separate css file with extension of .css, that will be imported into html
+Example, style.css - imported in <head> tag
+
+Selectors:
+To apply separate styles
+    Example, make every row different background colour
+Five types
+    1. Element - tag name
+    2. Class - create class name (use .)
+    3. Id - using id (use #)
+    4. Universal - (use *)
+    5. Grouping selectors - grouping few elements
+
+Homework:
+Login page: Attractive
+
+gridbox, flexsystem
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+Day 3: 20/Dec/2024
+-------------------------------------------------------------------------------------------------
+Class selector uses a . dot symbol which is called period symbol
+size of the column is must in grip concept

@@ -1,0 +1,46 @@
+.right{
+    right: 0;
+    text-align: center;
+    background-color: lightpink;
+    
+}
+.bg {
+    size: cover;
+    width:100%;
+    max-height: fit-content;
+    
+}
+input[type=text],[type=password],[type=submit]{
+    width:50%;
+    padding: 12px 20px;
+    margin:10px 0;
+    display:inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+body {
+    align-items: center;
+    
+}
+form {
+    background-color: beige;
+    border: 1px black solid;
+    margin: 20% 20% 20% 20%;
+}
+input[type=submit] {
+    background-color: cornflowerblue;
+}
+
+.left{
+    left:0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.page{
+    height:100%;
+    width:50%;
+    position:fixed;
+    z-index: 1;
+    top:0;
+    padding-top:20px;
+}

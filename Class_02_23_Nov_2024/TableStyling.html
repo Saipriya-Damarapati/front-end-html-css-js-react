@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        List
+    </title>
+    <!-- Grouping selector -->
+    <style>
+        body {
+            background-image: url("https://i0.wp.com/picjumbo.com/wp-content/uploads/christmas-background-free-image.jpeg?w=2210&quality=70");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position-x: center;
+            background-position-y: center;
+            text-align: center;
+            border: 2px black solid;
+            margin-top: 100px;
+            padding-left: 100px;
+        }
+        table, th, tr, td { 
+            border: 2px;
+            border-radius: 10px;
+            border-color: brown;
+            border-style: solid;
+            padding: 10px;
+        }
+/*
+        .row1 {
+            background-color: chartreuse;
+        }
+        .row2 {
+            background-color: darkorange;
+        }
+        .row3 {
+            background-color: gold;
+        }
+ */
+        .col1 {
+            background-color: chartreuse;
+        }
+        .col2 {
+            background-color: darkorange;
+        }
+        .col3 {
+            background-color: gold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to HTML</h1>
+    <!-- Tables -->
+    <table>
+        <tr class="row1">
+            <th class="col1">Name</th>
+            <th class="col2">Roll No</th>
+            <th class="col3" colspan="2">Mobile Number</th>
+        </tr>
+        <tr class="row2">
+            <td class="col1">Saipriya</td>
+            <td class="col2">100</td>
+            <td class="col3">9874563210</td>
+            <td class="col3">9876543210</td>
+        </tr>
+        <tr class="row3">
+            <td class="col1">Thejo</td>
+            <td class="col2">123</td>
+            <td class="col3">7894563210</td>
+            <td class="col3">7896543210</td>
+        </tr>
+    </table>
+</body>

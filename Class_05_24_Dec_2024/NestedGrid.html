@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        .container {
+          display: grid;
+          grid-template-areas:
+            "header header"
+            "menu content"
+            "footer footer";
+          grid-template-columns: 2fr 2fr;
+          gap: 10px;
+          background-color: #d762ec;
+          padding: 5px;
+        }
+        .container > div {
+          background-color: rgba(255, 255, 255, 0.8);
+          padding: 10px;
+        }
+        .container > div.header {
+          grid-area: header;
+          text-align: center;
+          background-image: url(Bg.jpg);
+          display: grid;
+          grid-template-areas: "header-left header-right";
+        }
+        .header > div.header-left {
+            background-color: aqua;
+        }
+        .container > div.menu {
+          grid-area: menu;
+          text-align: center;
+        }
+        .menu > a {
+            background-color: darkmagenta;
+        }
+        .container > div.content {
+          grid-area: content;
+          text-align: center;
+          display: grid;
+          grid-template-areas: "content-up" "content-down";
+        }
+        .content > div.content-up {
+            grid-area: content-up;
+            background-color: brown;
+        }
+        .content > div.content-down {
+            grid-area: content-down;
+            background-color: chartreuse;
+        }
+        .content 
+            > .content-up > p {
+                font-weight: bolder;
+            }
+            .content-down > ul > li {
+                font-style: italic;
+                display: inline;
+            }
+            .content-down > ul > li > a {
+                display: block;
+                padding: 8px;
+                text-decoration: none;
+            }
+
+        .container > div.footer {
+          grid-area: footer;
+          text-align: center;
+          background-image: url(Bg.jpg);
+        }
+        </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-left">Name</div>
+            <div class="header-right">Contact</div>
+        </div>
+        <div class="menu"><a href="#">Google</a></div>
+        <div class="content">
+            <div class="content-up"><p>Are you there?</p></div>
+            <div class="content-down">
+                <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Me</a></li>
+                <li><a href="#">Achievements</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Contacts</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer"><p>&copy;AllRights Reserved</p></div>
+    </div>
+</body>

@@ -1,0 +1,2 @@
+Write a function createCounter that returns another function. 
+The returned function should increment and return a counter variable every time it is called.

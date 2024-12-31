@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        .container {
+          display: grid;
+          grid-template-areas:
+            "header header"
+            "menu content"
+            "footer footer";
+          grid-template-columns: 2fr 2fr;
+          gap: 10px;
+          background-color: #d762ec;
+          padding: 5px;
+        }
+        .container > div {
+          background-color: rgba(255, 255, 255, 0.8);
+          padding: 10px;
+        }
+        .container > div.header {
+          grid-area: header;
+          text-align: center;
+          background-image: url(Bg.jpg);
+        }
+        .container > div.menu {
+          grid-area: menu;
+          text-align: center;
+        }
+        .container > div.content {
+          grid-area: content;
+          text-align: center;
+        }
+        .container > div.footer {
+          grid-area: footer;
+          text-align: center;
+          background-image: url(Bg.jpg);
+        }
+        </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">Home</div>
+        <div class="menu"><a href="#">Google</a></div>
+        <div class="content"><p>Are you there?</p></div>
+        <div class="footer"><p>&copy;AllRights Reserved</p></div>
+    </div>
+</body>
