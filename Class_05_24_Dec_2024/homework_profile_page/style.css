@@ -54,12 +54,15 @@
     display: grid;
     grid-template-areas: "about-me work-experience" 
     "tech-skills work-experience" 
+    "education-div work-experience"
+    "languages-div interests-div" 
     "volunteering-div accomplishments-div";
     grid-template-columns: 35% 65%;
 }
 
 .profile > div.about-me {
     grid-area: about-me;
+    margin: 5px 5px 5px 5px;
     padding: 10px 10px 10px 10px;
     background-color: blanchedalmond;
 }
@@ -101,9 +104,93 @@
 }
 
 .about-me > div.tech-skills-div {
-    margin-top: 20px;
+    margin-top: 5px;
     background-color: darkkhaki;
     padding: 2px 2px 2px 2px;
+}
+
+.about-me > div.education-div {
+    margin-top: 5px;
+    background-color: darkkhaki;
+    padding: 2px 2px 2px 2px;
+}
+
+.education-div > div.education {
+    display: grid;
+    grid-template-areas: "course details-det";
+    grid-template-columns: 10% 90%;
+    background-color: khaki;
+    margin: 5px 5px 5px 5px;
+}
+
+.education > div.course {
+    grid-area: course;
+    background-color: darkorange;
+    text-align: center;
+    padding: 10px 2px 2px 2px;
+}
+
+.education > div.details-det {
+    display: grid;
+    grid-area: details-det;
+    /*padding: 10px 2px 2px 2px;*/
+    grid-template-areas: "timeline" "details" "school";
+}
+
+.details-det > div.timeline {
+    grid-area: timeline;
+    padding: 2px 2px 2px 2px;
+}
+
+.details-det > div.details {
+    grid-area: details;
+    padding: 2px 2px 2px 2px;
+    background-color: lightgoldenrodyellow;
+}
+
+.details-det > div.school {
+    grid-area: school;
+    padding: 2px 2px 2px 2px;
+}
+
+.about-me > div.languages-div {
+    margin-top: 5px;
+    background-color: darkkhaki;
+    padding: 2px 2px 2px 2px;
+}
+
+.languages-div > div.languages {
+    display: grid;
+    grid-template-areas: "language ability";
+    grid-template-columns: 20% 80%;
+    background-color: khaki;
+    margin: 5px 5px 5px 5px;
+}
+
+.languages > div.language {
+    grid-area: language;
+    background-color: darkorange;
+    text-align: center;
+    padding: 10px 2px 2px 2px;
+}
+
+.languages > div.ability {
+    display: grid;
+    grid-area: ability;
+    padding: 10px 2px 2px 2px;
+}
+
+.profile > div.interests-div {
+    grid-area: interests-div;
+    margin-top: 5px;
+    background-color: darkkhaki;
+    padding: 2px 2px 2px 2px;
+}
+
+.interests-div > div.interests {
+    background-color: khaki;
+    margin: 5px 5px 5px 5px;
+    padding: 10px 2px 2px 10px;
 }
 
 .about-me > div.tech-skills {
@@ -137,8 +224,21 @@
 
 .profile > div.work-experience {
     grid-area: work-experience;
-    background-color: darkgray;
+    background-color: blanchedalmond;
     margin: 5px 5px 5px 5px;
+    padding: 10px 10px 10px 10px;
+}
+
+.work-experience > div.project {
+    background-color: darkkhaki;
+    padding: 10px 10px 10px 10px;
+    margin: 5px 5px 5px 5px;
+}
+
+.project > div.responsibilities {
+    background-color: khaki;
+    padding: 1px 5px 5px 10px;
+    margin: 3px 5px 5px 5px;
 }
 
 .profile > div.accomplishments-div {
