@@ -9,6 +9,8 @@ const car={
         return `${this.brand} ${this.model} ${this.year} stopping the engine`;
     }
 };
+car.color="Red";
+delete car.color;
 
 document.write("Car brand: ", car.brand);
 document.write("Car model: ", car.model);
