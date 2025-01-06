@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        Student Grade
+    </title>
+</head>
+<body>
+    <h1>Student Grade</h1>
+    <label for="name">Student Name:</label>
+    <input type="text" id="name">
+    <br>
+    <label for="marks">Marks out of 100</label>
+    <input type="number" id="marks">
+    <br>
+    <button onclick="calculateGrade()">Calculate</button>
+
+    <div class="result" id="result"></div>
+
+    <script>
+        function student(name, marks) {
+            this.name = name;
+            this.marks=marks;
+
+            this.calculateGrade = function() {
+                if(this.marks >= 90) {
+                    return 'A';
+                } else if(this.marks >= 70) {
+                    return 'B';
+                } else if(this.marks >= 50) {
+                    return 'C';
+                } else {
+                    return 'F';
+                }
+            };
+        }
+
+        function calculateGrade() {
+            const name = document.getElementById("name").value;
+            const marks = parseInt(document.getElementById("marks").value);
+
+            if(!name || isNaN(marks) || marks < 0 || marks > 100) {
+                document.getElementById("result").textContent = "Invalid input(s)"; // backtick is not madnatory, since we are displaying plain text
+                return;
+            }
+
+            const student1 = new student(name, marks);
+            const grade = student1.calculateGrade();
+            // while using textcontent, use backtick symbol for displaying value
+            document.getElementById("result").textContent = `Stduent Name: ${student1.name} : Marks: ${student1.marks} : Grade: ${grade}`; 
+        }
+    </script>
+</body>

@@ -1,0 +1,9 @@
+2. Product Inventory Management
+You are managing a product inventory. Create an object product with the following properties:
+name: "Laptop"
+price: 60000
+stock: 50
+Tasks:
+1.	Write a method updateStock(newStock) to update the stock property.
+2.	Add a method applyDiscount(percent) to reduce the price by the given percentage.
+3.	Display the updated details of the product.

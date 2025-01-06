@@ -1,0 +1,14 @@
+1. Employee Management System
+
+You are building an employee management system 
+    where you need to store the details of an employee:
+
+name: "Alice"
+age: 30
+designation: "Software Engineer"
+
+Tasks:
+1.	Create an object employee with the above details.
+2.	Add a method getDetails that returns a string with the employee’s full details.
+3.	Add a new property salary with the value 75000.
+4.	Remove the designation property from the object.
