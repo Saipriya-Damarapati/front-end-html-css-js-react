@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+    <title>Event Handling</title>
+</head>
+<body>
+    <p>Event Handling</p>
+    <select id="list" onchange="myFunction()">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="transgender">Transgender</option>
+        <option value="preferNotToSay">Prefer Not To Say</option>
+    </select>
+    <p id="demo"></p>
+    
+    <script>
+        function myFunction() {
+            var gender = document.getElementById("list").value;
+            document.getElementById("demo").innerHTML = "Gender: " + gender;
+        }
+    </script>
+</body>
+
+<!--
+syntax : html tag event
+button event="function()"
+-->
