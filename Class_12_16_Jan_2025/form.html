@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<body>
+    <h2>
+        DOM Form Example
+    </h2>
+    <form action="">
+        <label>Name: </label>
+        <input type="text" name="firstName" value="Priya">
+        <input type="text" name="lastName" value="Priyanka">
+        <input type="submit" value="submit">
+    </form>
+
+    <form action="">
+        <label>Name: </label>
+        <input type="text" name="firstName" value="Priya">
+        <input type="text" name="lastName" value="Priyanka">
+        <input type="submit" value="submit">
+    </form>
+    
+    <p id="para1"></p>
+    <script>
+        document.getElementById("para1").innerHTML = "No. of forms: " + document.forms.length;
+    </script>
+</body>

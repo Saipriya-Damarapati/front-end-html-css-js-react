@@ -1,0 +1,35 @@
+DOM - Document Object Model
+
+DOM Tree
+---------------------
+1. Document
+2. Root - html tag
+    2.1. Head
+        2.1.1. Title
+    2.2. Body 
+        2.2.2. Many tags <header> <div> <a> <p> <h1> ... etc
+
+-----------------------------------------------------------------------
+DOM - permission to access to change the properties of elements
+
+3 parts of DOM
+1. Core DOM - applicable for all types of documents
+2. HTML DOM - only for HTML model documents 
+    - have programming interface
+    - elements as objects
+    - properties, events and functions access to change
+3. XML DOM - only for XML documents
+-----------------------------------------------------------------------
+DOM Programming interface
+-----------------------------
+document.getElementById("").innerHTML = 
+getElementByClassName("className")
+getElementByTagName("tagName")
+
+properties for changing the elements
+--------------------------------------
+element.style.property = new style
+element.attribute = new value
+element.setAttribute(attribute, value)
+element.innerHTML = new html.content
+helps to get the properties and events of the element and is ediatble

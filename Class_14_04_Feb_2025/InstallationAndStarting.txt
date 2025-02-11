@@ -1,0 +1,175 @@
+PS S:\Study\git_repos\front-end-html-css-js-react> npx create-react-app my-react-proj
+
+Creating a new React app in S:\Study\git_repos\front-end-html-css-js-react\my-react-proj.
+
+Installing packages. This might take a couple of minutes.
+Installing react, react-dom, and react-scripts with cra-template...
+
+
+added 1326 packages in 34s
+
+268 packages are looking for funding
+  run `npm fund` for details
+
+Installing template dependencies using npm...
+npm error code ERESOLVE
+npm error ERESOLVE unable to resolve dependency tree
+npm error
+npm error While resolving: my-react-proj@0.1.0
+npm error Found: react@19.0.0
+npm error node_modules/react
+npm error   react@"^19.0.0" from the root project
+npm error
+npm error Could not resolve dependency:
+npm error peer react@"^18.0.0" from @testing-library/react@13.4.0
+npm error node_modules/@testing-library/react
+npm error   @testing-library/react@"^13.0.0" from the root project
+npm error
+npm error Fix the upstream dependency conflict, or retry
+npm error this command with --force or --legacy-peer-deps
+npm error to accept an incorrect (and potentially broken) dependency resolution.
+npm error
+npm error
+npm error For a full report see:
+npm error C:\Users\saipr\AppData\Local\npm-cache\_logs\2025-02-11T16_28_46_130Z-eresolve-report.txt
+npm error A complete log of this run can be found in: C:\Users\saipr\AppData\Local\npm-cache\_logs\2025-02-11T16_28_46_130Z-debug-0.log
+`npm install --no-audit --save @testing-library/jest-dom@^5.14.1 @testing-library/react@^13.0.0 @testing-library/user-event@^13.2.1 web-vitals@^2.1.0` failed
+
+
+PS S:\Study\git_repos\front-end-html-css-js-react> Get-ExecutionPolicy
+Unrestricted
+
+
+PS S:\Study\git_repos\front-end-html-css-js-react> Set-ExecutionPolicy Unrestricted -Scope CurrentUser -Force
+
+
+PS S:\Study\git_repos\front-end-html-css-js-react> npm install
+npm error code ENOENT
+npm error syscall open
+npm error path S:\Study\git_repos\front-end-html-css-js-react\package.json
+npm error errno -4058
+npm error enoent Could not read package.json: Error: ENOENT: no such file or directory, open 'S:\Study\git_repos\front-end-html-css-js-react\package.json'
+npm error enoent This is related to npm not being able to find a file.
+npm error enoent
+npm error A complete log of this run can be found in: C:\Users\saipr\AppData\Local\npm-cache\_logs\2025-02-11T16_34_47_461Z-debug-0.log
+
+
+PS S:\Study\git_repos\front-end-html-css-js-react> npm init -v
+10.9.2
+
+
+PS S:\Study\git_repos\front-end-html-css-js-react> npm install
+npm error code ENOENT
+npm error syscall open
+npm error path S:\Study\git_repos\front-end-html-css-js-react\package.json
+npm error errno -4058
+npm error enoent Could not read package.json: Error: ENOENT: no such file or directory, open 'S:\Study\git_repos\front-end-html-css-js-react\package.json'
+npm error enoent This is related to npm not being able to find a file.
+npm error enoent
+npm error A complete log of this run can be found in: C:\Users\saipr\AppData\Local\npm-cache\_logs\2025-02-11T16_35_17_621Z-debug-0.log
+
+
+PS S:\Study\git_repos\front-end-html-css-js-react> ls
+
+
+    Directory: S:\Study\git_repos\front-end-html-css-js-react
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        03-01-2025     14:05                Class_01_20_Nov_2024
+d-----        03-01-2025     14:05                Class_02_23_Nov_2024
+d-----        03-01-2025     14:05                Class_03_20_Dec_2024
+d-----        03-01-2025     14:05                Class_04_23_Dec_2024
+d-----        03-01-2025     14:05                Class_05_24_Dec_2024
+d-----        03-01-2025     14:05                Class_06_26_Dec_2024
+d-----        03-01-2025     14:05                Class_07_28_Dec_2024
+d-----        03-01-2025     15:50                Class_08_30_Dec_2024
+d-----        03-01-2025     15:50                Class_09_03_Jan_2025
+d-----        06-01-2025     21:59                Class_10_06_Jan_2025
+d-----        07-01-2025     10:18                Class_11_07_Jan_2025
+d-----        16-01-2025     10:55                Class_12_16_Jan_2025
+d-----        21-01-2025     10:29                Class_13_21_Jan_2025
+d-----        04-02-2025     09:32                Class_14_04_Feb_2025
+d-----        11-02-2025     21:58                my-react-proj
+d-----        11-02-2025     21:55                ReactLearning
+-a----        03-01-2025     14:05           2527 HtmlNotes.txt
+-a----        11-02-2025     22:05            106 package-lock.json
+-a----        05-02-2025     09:52           5456 powershell.txt
+-a----        03-01-2025     14:05             31 README.md
+
+
+PS S:\Study\git_repos\front-end-html-css-js-react> npm install
+npm error code ENOENT
+npm error syscall open
+npm error path S:\Study\git_repos\front-end-html-css-js-react\package.json
+npm error errno -4058
+npm error enoent Could not read package.json: Error: ENOENT: no such file or directory, open 'S:\Study\git_repos\front-end-html-css-js-react\package.json'
+npm error enoent This is related to npm not being able to find a file.
+npm error enoent
+npm error A complete log of this run can be found in: C:\Users\saipr\AppData\Local\npm-cache\_logs\2025-02-11T16_35_52_502Z-debug-0.log
+
+
+PS S:\Study\git_repos\front-end-html-css-js-react> cd .\my-react-proj\
+
+
+PS S:\Study\git_repos\front-end-html-css-js-react\my-react-proj> ls
+
+
+    Directory: S:\Study\git_repos\front-end-html-css-js-react\my-react-proj
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        11-02-2025     21:58                node_modules
+d-----        11-02-2025     21:58                public
+d-----        11-02-2025     21:58                src
+-a----        11-02-2025     21:58            310 .gitignore
+-a----        11-02-2025     21:58         655560 package-lock.json
+-a----        11-02-2025     21:58            687 package.json
+-a----        11-02-2025     21:58           3359 README.md
+
+
+PS S:\Study\git_repos\front-end-html-css-js-react\my-react-proj> npm start
+Starting the development server...
+
+One of your dependencies, babel-preset-react-app, is importing the
+"@babel/plugin-proposal-private-property-in-object" package without
+declaring it in its dependencies. This is currently working because
+"@babel/plugin-proposal-private-property-in-object" is already in your
+Failed to compile.
+
+Module not found: Error: Can't resolve 'web-vitals' in 'S:\Study\git_repos\front-end-html-css-js-react\my-react-proj\src'
+ERROR in ./src/reportWebVitals.js 5:4-24
+Module not found: Error: Can't resolve 'web-vitals' in 'S:\Study\git_repos\front-end-html-css-js-react\my-react-proj\src'
+
+webpack compiled with 1 error
+
+
+PS S:\Study\git_repos\front-end-html-css-js-react\my-react-proj> npm install web-vitals
+
+added 1 package, changed 1 package, and audited 1328 packages in 2s
+
+268 packages are looking for funding
+  run `npm fund` for details
+
+8 vulnerabilities (2 moderate, 6 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+
+PS S:\Study\git_repos\front-end-html-css-js-react\my-react-proj> npm start
+Compiled successfully!
+
+You can now view my-react-proj in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://192.168.1.8:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled successfully

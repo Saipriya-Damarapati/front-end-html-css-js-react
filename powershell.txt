@@ -1,0 +1,118 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\saipr> Get-ExecutionPolicy
+Restricted
+
+PS C:\Users\saipr> Set-ExecutionPolicy Unrestricted -Scope CurrentUser -Force
+PS C:\Users\saipr> npm install
+npm error code ENOENT
+npm error syscall open
+npm error path C:\Users\saipr\package.json
+npm error errno -4058
+npm error enoent Could not read package.json: Error: ENOENT: no such file or directory, open 'C:\Users\saipr\package.json'
+npm error enoent This is related to npm not being able to find a file.
+npm error enoent
+npm error A complete log of this run can be found in: C:\Users\saipr\AppData\Local\npm-cache\_logs\2025-02-04T04_48_14_281Z-debug-0.log
+PS C:\Users\saipr> ls
+
+
+    Directory: C:\Users\saipr
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        03-01-2025     15:59                .m2
+d-----        21-01-2025     11:07                .ms-ad
+d-----        03-01-2025     15:25                .ssh
+d-----        02-01-2025     10:07                .vscode
+d-r---        22-12-2024     21:37                Contacts
+d-----        22-12-2024     21:45                Documents
+d-r---        04-02-2025     10:03                Downloads
+d-r---        22-12-2024     21:37                Favorites
+d-r---        22-12-2024     21:37                Links
+d-r---        22-12-2024     21:37                Music
+dar--l        04-02-2025     09:31                OneDrive
+d-r---        22-12-2024     21:37                Saved Games
+d-r---        01-01-2025     11:24                Searches
+d-r---        22-12-2024     21:47                Videos
+-a----        03-01-2025     13:52            200 .gitconfig
+-a----        03-01-2025     16:02             14 .minttyrc
+-a----        04-02-2025     10:18             84 package-lock.json
+
+
+PS C:\Users\saipr> npm init -y
+Wrote to C:\Users\saipr\package.json:
+
+{
+  "name": "saipr",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
+
+
+
+PS C:\Users\saipr> npm install
+
+up to date, audited 1 package in 750ms
+
+found 0 vulnerabilities
+PS C:\Users\saipr> npx create-react-app myproject
+Need to install the following packages:
+create-react-app@5.0.1
+Ok to proceed? (y) y
+
+npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+npm warn deprecated uid-number@0.0.6: This package is no longer supported.
+npm warn deprecated fstream-ignore@1.0.5: This package is no longer supported.
+npm warn deprecated rimraf@2.7.1: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm warn deprecated fstream@1.0.12: This package is no longer supported.
+npm warn deprecated tar@2.2.2: This version of tar is no longer supported, and will not receive security updates. Please upgrade asap.
+
+Creating a new React app in C:\Users\saipr\myproject.
+
+Installing packages. This might take a couple of minutes.
+Installing react, react-dom, and react-scripts with cra-template...
+
+
+added 1324 packages in 59s
+
+268 packages are looking for funding
+  run `npm fund` for details
+
+Initialized a git repository.
+
+Installing template dependencies using npm...
+npm error code ERESOLVE
+npm error ERESOLVE unable to resolve dependency tree
+npm error
+npm error While resolving: myproject@0.1.0
+npm error Found: react@19.0.0
+npm error node_modules/react
+npm error   react@"^19.0.0" from the root project
+npm error
+npm error Could not resolve dependency:
+npm error peer react@"^18.0.0" from @testing-library/react@13.4.0
+npm error node_modules/@testing-library/react
+npm error   @testing-library/react@"^13.0.0" from the root project
+npm error
+npm error Fix the upstream dependency conflict, or retry
+npm error this command with --force or --legacy-peer-deps
+npm error to accept an incorrect (and potentially broken) dependency resolution.
+npm error
+npm error
+npm error For a full report see:
+npm error C:\Users\saipr\AppData\Local\npm-cache\_logs\2025-02-04T04_53_43_092Z-eresolve-report.txt
+npm error A complete log of this run can be found in: C:\Users\saipr\AppData\Local\npm-cache\_logs\2025-02-04T04_53_43_092Z-debug-0.log
+`npm install --no-audit --save @testing-library/jest-dom@^5.14.1 @testing-library/react@^13.0.0 @testing-library/user-event@^13.2.1 web-vitals@^2.1.0` failed
+PS C:\Users\saipr>

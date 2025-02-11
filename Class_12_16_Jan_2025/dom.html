@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<body>
+    <h2>Welcome</h2>
+    <div id="id1">
+        <p>This is document object model</p>
+        <p>This is a front end class</p>
+        <b>getElementByTagName</b>
+    </div>
+
+    <div class="class1">
+        <p>This is document object model in class</p>
+        <p>This is a front end class in class</p>
+        <b>getElementByTagName in class</b>
+    </div>
+
+    <p id="id2"></p>
+    <p id="id3"></p>
+
+    <script>
+        let x = document.getElementById("id1");
+        let y = document.getElementsByTagName("p");
+
+        document.getElementById("id2").innerHTML = "Hi, this is the paragraph" + y[0].innerHTML;
+
+        let z = document.getElementsByClassName("class1");
+        document.getElementById("id3").innerHTML = "Hi, this is the paragraph" + z[0].innerHTML;
+    </script>
+</body>
