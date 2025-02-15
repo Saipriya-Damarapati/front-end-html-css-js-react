@@ -1,12 +1,12 @@
 import './App.css';
 import React from 'react';
-import LoginForm from './component/Class_15_05_Feb_2025/LoginForm';
+import LoginFormStyles from './component/Class_15_05_Feb_2025/LoginFormStyles';
 
 class App extends React.Component {
   render() {
     return (
       <div>
-        <LoginForm />
+        <LoginFormStyles />
       </div>
     )
   }
