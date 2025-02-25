@@ -152,10 +152,10 @@ const styles = {
     outerplayer: {display: "flex", marginLeft: "35%"},
     player: {margin: "50px", padding: "10px"},
     outer: {display: "grid", gridTemplateColumns: "50px 50px 50px 50px 50px 50px 50px 50px", gridTemplateRows: "50px 50px 50px 50px 50px 50px 50px 50px", marginLeft: "40%", marginTop: "5px", marginBottom: "10%",},
-    theme1: {background: "black", color: "darkgray"},
-    theme2: {background: "darkgreen", color: "white"},
-    theme3: {background: "darkgray", color: "black"},
-    theme4: {background: "lightgreen", color: "black"},
+    theme1: {background: "black", color: "darkgray", paddingTop: "10px"},
+    theme2: {background: "darkgreen", color: "white", paddingTop: "10px"},
+    theme3: {background: "darkgray", color: "black", paddingTop: "10px"},
+    theme4: {background: "lightgreen", color: "black", paddingTop: "10px"},
 }
 
 export default ThemeChangeHome;
