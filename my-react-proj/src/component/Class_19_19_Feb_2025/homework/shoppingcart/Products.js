@@ -38,9 +38,9 @@ const ProductsDiv = () => {
                         </div>
                         <div style={styles.productQty}>
                             <label>Rs. 185/kg</label>
-                            <button onClick={incrementCount}>+</button>
-                            <input type="text" id="toordalCount" value={product.count} disabled></input>
                             <button onClick={decrementCount}>-</button>
+                            <input type="text" id="toordalCount" value={product.count} disabled></input>
+                            <button onClick={incrementCount}>+</button>
                         </div>
                     </div>
                     <div style={styles.productPrice}>
@@ -78,6 +78,7 @@ const styles = {
         borderRadius: "20px"
     },
 
+    /*
     productImage: { gridArea: "productImage", marginLeft: "35%"},
     productDescription: {
         gridArea: "productDescription", 
@@ -88,6 +89,29 @@ const styles = {
     productQty: {marginLeft: "40px", gridArea: "productDesc", marginTop: "45px"},
     productDesc: {gridArea: "productDesc", marginTop: "45px"},
     productPrice: {gridArea: "productPrice", marginTop: "30px"}
+    */
 };
 
 export default Products;
+
+
+/*
+
+import './App.css';
+import React from 'react';
+import Products from './component/Class_19_19_Feb_2025/homework/shoppingcart/Products';
+
+class App extends React.Component {
+  render() {
+    return (
+      <div>
+        <Products />
+      </div>
+    )
+  }
+}
+
+export default App;
+
+
+*/
